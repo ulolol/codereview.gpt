@@ -1,15 +1,15 @@
 # codereview.gpt
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sturdy-dev/codereview.gpt/main/public/icons/icon_128.png">
+  <img src="https://raw.githubusercontent.com/ulolol/codereview.gpt/main/public/icons/icon_128.png">
 </p>
 <p align='center'>
-    Review GitHub Pull Requests or GitLab Merge Requests using <a href="https://chat.openai.com" target="_blank">ChatGPT</a>.
+    Review GitHub Pull Requests or GitLab Merge Requests using <a href="https://platform.openai.com/playground/chat" target="_blank">GPT</a>.
 </p>
 <p align='center'>
-    <a href="https://github.com/sturdy-dev/codereview.gpt/blob/main/LICENSE.txt">
+    <a href="https://github.com/ulolol/codereview.gpt/blob/main/LICENSE.txt">
         <img alt="GitHub"
-        src="https://img.shields.io/github/license/sturdy-dev/codereview.gpt">
+        src="https://img.shields.io/github/license/ulolol/codereview.gpt">
     </a>
     <a href="https://chrome.google.com/webstore/detail/codereviewgpt/amdfidcajdihmbhmmgohhkoaijpkocdn">
       <img alt="Chrome Web Store"
@@ -25,20 +25,20 @@
 
 ## Overview
 
-This is a Chrome extension which reviews Pull Requests for you using [ChatGPT](https://chat.openai.com/).
+This is a Chrome extension which reviews Pull Requests for you using [GPT](https://chat.openai.com/).
 
 Here's an example output for [this](https://github.com/sturdy-dev/semantic-code-search/pull/17) Pull Request:
 
 https://user-images.githubusercontent.com/4030927/207372123-46d7ee8c-bd3e-4272-8ccb-4639f9f71458.mp4
 
-![example screenshot](https://raw.githubusercontent.com/sturdy-dev/codereview.gpt/main/docs/codereview_gpt_screenshot_1.png)
+![example screenshot](https://raw.githubusercontent.com/ulolol/codereview.gpt/main/docs/codereview_gpt_screenshot_1.png)
 
 ## Usage
 
 - Navigate to a GitHub Pull Request or GitLab Merge Request that you want a review for.
 - Fill in your [OpenAI API token](https://platform.openai.com/account/api-keys) in the Settings of the Chrome Extension
 - Click the extension icon
-- You get code review comments from ChatGPT in the popup window
+- You get code review comments from GPT in the popup window
 
 **NB:** Running the review multiple times often produces different feedback, so if you are dealing with a larger PR, it might be a good idea to do that to get the most out of it.
 

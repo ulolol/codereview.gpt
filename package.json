@@ -1,7 +1,7 @@
 {
   "name": "codereview.gpt",
-  "version": "0.3.0",
-  "description": "Reviews PRs so that you can pretend to work",
+  "version": "0.3.1",
+  "description": "Reviews PR/MRs on Github/Gitlab using GPT",
   "private": true,
   "scripts": {
     "watch": "webpack --mode=development --watch --config config/webpack.config.js",
@@ -27,8 +27,8 @@
   },
   "dependencies": {
     "buffer": "^6.0.3",
-    "chatgpt": "^5.1.3",
-    "eventsource-parser": "^0.0.5",
+    "chatgpt": "^5.2.5",
+    "eventsource-parser": "^1.0.0",
     "node-html-parser": "^6.1.5",
     "parse-diff": "^0.11.1"
   }
