@@ -91,7 +91,9 @@ async function callChatGPT(messages, callback, onDone) {
     Do not comment on minor code style issues, missing
     comments/documentation. Identify and resolve significant
     concerns to improve overall code quality while deliberately
-    disregarding minor issues.`
+    disregarding minor issues.
+    You MUST identify and point out the parts of code that are problematic and provide possible solutions in the form of code snippets, along with
+    the file names and the line numbers.`
   })
 
   let res
@@ -206,9 +208,9 @@ async function reviewPR(diffPath, context, title) {
     patchPartArray.push("\nDo not provide feedback yet. I will confirm once all code changes were submitted.");
 
     var patchPart = patchPartArray.join("\n");
-    if (patchPart.length >= 15384) {
-      patchPart = patchPart.slice(0, 15384)
-      warning = 'Some parts of your patch were truncated as it was larger than 4096 tokens or 15384 characters. The review might not be as complete.'
+    if (patchPart.length >= 480750) {
+      patchPart = patchPart.slice(0, 480750)
+      warning = 'Some parts of your patch were truncated as it was larger than 128k tokens or 480750 characters. The review might not be as complete.'
     }
     patchParts.push(patchPart);
   });
