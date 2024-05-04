@@ -12,3 +12,4 @@
 npm-debug.log*
 build.crx
 build.pem
+.github/workflows/npm-grunt.yml
