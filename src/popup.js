@@ -96,7 +96,7 @@ async function callChatGPT(messages, callback, onDone) {
     - Evaluate architectural choices for their long-term viability and scalability.
     
     Special Instruction:
-    Place significant emphasis on identifying specific problematic code segments, providing detailed examples with exact file names and line numbers. Follow each identification with a proposed solution, including a code snippet that rectifies the issue or enhances the code quality. Always ensure all code snippets provided by you are formatted properly as per the code language guidelines. Focus your efforts on substantial coding challenges, bypassing minor style or documentation concerns to propose precise improvements and substantially elevate the project's code quality and success potential.`
+    Place significant emphasis on identifying specific problematic code segments, providing detailed examples with exact file names and line numbers. Follow each identification with a proposed solution, including a code snippet that rectifies the issue or enhances the code quality, always providing possible code solution snippets to the problems you have identified, including the actual fixed and optimized code, along with proper comments and documentation. Always ensure all code snippets provided by you are formatted properly as per the code language guidelines. Focus your efforts on substantial coding challenges, bypassing minor style or documentation concerns to propose precise improvements and substantially elevate the project's code quality and success potential.`
   })
 
   let res
