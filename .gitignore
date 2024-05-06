@@ -16,3 +16,4 @@ CodeReviewGPT_CRX_Build.pem
 .github/workflows/npm-grunt.yml
 Chrome.crx
 CodeReviewGPT_Chrome.pem
+CodeReviewGPT_CRX_Brave.pem
