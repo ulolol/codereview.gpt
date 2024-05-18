@@ -65,7 +65,7 @@ async function callChatGPT(messages, callback, onDone) {
   const api = new ChatGPTAPI({
     apiKey: apiKey,
     completionParams: {
-      model: 'gpt-4-turbo-2024-04-09',
+      model: 'gpt-4o',
       temperature: 0.5,
       top_p: 0.8
     },
